@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import StudentInput from './pages/StudentInput';
 import TimetablePreview from './pages/TimetablePreview';
 import Dashboard from './pages/Dashboard';
+import StudentTimetable from './pages/StudentTimetable';
 import './index.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<StudentInput />} />
             <Route path="/timetable" element={<TimetablePreview />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/student/:regNo" element={<StudentTimetable />} />
           </Routes>
         </main>
         <Toaster

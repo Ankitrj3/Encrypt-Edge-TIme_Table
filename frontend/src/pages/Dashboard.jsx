@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { dashboardApi, calendarApi } from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 import SyncStatus from '../components/SyncStatus';
 
 function Dashboard() {
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState(null);
     const [filters, setFilters] = useState({
@@ -188,7 +190,27 @@ function Dashboard() {
                             ) : (
                                 data?.students?.map((student) => (
                                     <tr key={student.regNo}>
-                                        <td style={{ color: '#fafafa', fontWeight: 500 }}>{student.name}</td>
+                                        <td>
+                                            <button
+                                                onClick={() => navigate(`/student/${student.regNo}`)}
+                                                style={{
+                                                    background: 'none',
+                                                    border: 'none',
+                                                    padding: 0,
+                                                    color: '#fafafa',
+                                                    fontWeight: 500,
+                                                    cursor: 'pointer',
+                                                    fontSize: 'inherit',
+                                                    textAlign: 'left',
+                                                    transition: 'color 0.2s'
+                                                }}
+                                                onMouseEnter={(e) => e.target.style.color = '#ef4444'}
+                                                onMouseLeave={(e) => e.target.style.color = '#fafafa'}
+                                                title="View timetable"
+                                            >
+                                                {student.name}
+                                            </button>
+                                        </td>
                                         <td>{student.regNo}</td>
                                         <td>{student.phone}</td>
                                         <td>{student.totalClasses}</td>

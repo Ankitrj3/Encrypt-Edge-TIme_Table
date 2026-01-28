@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import { getAuthUrl } from '../services/api';
 
 function Navbar() {
     const location = useLocation();
@@ -29,7 +30,7 @@ function Navbar() {
                     ))}
                 </div>
 
-                <a href="/api/auth/google" className="btn btn-secondary">
+                <a href={getAuthUrl('/api/auth/google')} className="btn btn-secondary">
                     Connect Google
                 </a>
             </div>

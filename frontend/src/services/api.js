@@ -1,6 +1,16 @@
 import axios from 'axios';
 
-const API_BASE = '/api';
+// In production, use the full backend URL from environment variable
+// In development, use relative path (Vite proxy will handle it)
+const API_BASE = import.meta.env.VITE_API_URL
+    ? `${import.meta.env.VITE_API_URL}/api`
+    : '/api';
+
+// Export for use in components that need the raw base URL (like OAuth redirects)
+export const getAuthUrl = (path) => {
+    const baseUrl = import.meta.env.VITE_API_URL || '';
+    return `${baseUrl}${path}`;
+};
 
 const api = axios.create({
     baseURL: API_BASE,

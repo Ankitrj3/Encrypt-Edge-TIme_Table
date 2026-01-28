@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { studentsApi, calendarApi } from '../services/api';
+import { studentsApi, calendarApi, getAuthUrl } from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 function TimetablePreview() {
@@ -40,7 +40,7 @@ function TimetablePreview() {
             const fullData = await Promise.all(
                 studentsWithTT.map(async (s) => {
                     try {
-                        const ttResult = await fetch(`/api/timetable/${s.regNo}`);
+                        const ttResult = await fetch(getAuthUrl(`/api/timetable/${s.regNo}`));
                         const data = await ttResult.json();
                         return { ...s, ...data };
                     } catch {
@@ -93,7 +93,7 @@ function TimetablePreview() {
     const handleSync = async () => {
         if (!authenticated) {
             toast.error('Please connect Google Calendar first');
-            window.location.href = '/api/auth/google';
+            window.location.href = getAuthUrl('/api/auth/google');
             return;
         }
 
@@ -141,7 +141,7 @@ function TimetablePreview() {
                 </div>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                     {!authenticated && (
-                        <a href="/api/auth/google" className="btn btn-outline">
+                        <a href={getAuthUrl('/api/auth/google')} className="btn btn-outline">
                             Connect Google
                         </a>
                     )}

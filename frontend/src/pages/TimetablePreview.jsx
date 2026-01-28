@@ -12,6 +12,26 @@ const SearchIcon = () => (
     </svg>
 );
 
+// Chevron Down Icon
+const ChevronDownIcon = ({ isOpen }) => (
+    <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        style={{
+            transition: 'transform 0.3s ease',
+            transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)'
+        }}
+    >
+        <polyline points="6 9 12 15 18 9" />
+    </svg>
+);
+
 function TimetablePreview() {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
@@ -20,6 +40,14 @@ function TimetablePreview() {
     const [selectedClasses, setSelectedClasses] = useState({});
     const [authenticated, setAuthenticated] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
+    const [expandedStudents, setExpandedStudents] = useState({});
+
+    const toggleExpanded = (regNo) => {
+        setExpandedStudents(prev => ({
+            ...prev,
+            [regNo]: !prev[regNo]
+        }));
+    };
 
     useEffect(() => {
         loadData();
@@ -299,16 +327,37 @@ function TimetablePreview() {
                 {filteredStudents.map(student => (
                     <div key={student.regNo} className="card">
                         {/* Student Header */}
-                        <div className="card-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                            <div>
-                                <h3 style={{ fontSize: '16px', fontWeight: 600, color: '#fafafa', marginBottom: '4px' }}>
-                                    {student.name}
-                                </h3>
-                                <p style={{ fontSize: '13px', color: '#71717a' }}>
-                                    {student.regNo} • Section: {student.timetable?.section || 'N/A'} • {student.timetable?.classes?.length || 0} classes
-                                </p>
+                        <div
+                            className="card-header"
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                alignItems: 'center',
+                                cursor: 'pointer',
+                                transition: 'background 0.2s'
+                            }}
+                            onClick={() => toggleExpanded(student.regNo)}
+                            onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.02)'}
+                            onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
+                        >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <ChevronDownIcon isOpen={expandedStudents[student.regNo]} />
+                                <div>
+                                    <h3 style={{
+                                        fontSize: '16px',
+                                        fontWeight: 600,
+                                        color: '#fafafa',
+                                        marginBottom: '4px',
+                                        transition: 'color 0.2s'
+                                    }}>
+                                        {student.name}
+                                    </h3>
+                                    <p style={{ fontSize: '13px', color: '#71717a' }}>
+                                        {student.regNo} • Section: {student.timetable?.section || 'N/A'} • {student.timetable?.classes?.length || 0} classes
+                                    </p>
+                                </div>
                             </div>
-                            <div style={{ display: 'flex', gap: '16px' }}>
+                            <div style={{ display: 'flex', gap: '16px' }} onClick={(e) => e.stopPropagation()}>
                                 <button
                                     onClick={() => selectAll(student.regNo)}
                                     style={{ background: 'none', border: 'none', color: '#ef4444', fontSize: '13px', cursor: 'pointer' }}
@@ -324,59 +373,63 @@ function TimetablePreview() {
                             </div>
                         </div>
 
-                        {/* Classes Table */}
-                        <div className="table-container">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th style={{ width: '50px', textAlign: 'center' }}>Sync</th>
-                                        <th>Day</th>
-                                        <th>Time</th>
-                                        <th>Course</th>
-                                        <th>Room</th>
-                                        <th>Type</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {student.timetable?.classes?.map((cls, index) => (
-                                        <tr key={index}>
-                                            <td style={{ textAlign: 'center' }}>
-                                                <input
-                                                    type="checkbox"
-                                                    checked={selectedClasses[student.regNo]?.includes(index)}
-                                                    onChange={() => toggleClass(student.regNo, index)}
-                                                />
-                                            </td>
-                                            <td style={{ fontWeight: 500, color: '#fafafa' }}>{cls.day}</td>
-                                            <td>{cls.startTime} - {cls.endTime}</td>
-                                            <td>
-                                                <span className="badge badge-info">{cls.course}</span>
-                                            </td>
-                                            <td>{cls.room}</td>
-                                            <td>
-                                                <span className={`badge ${cls.type === 'Practical' ? 'badge-warning' : 'badge-success'}`}>
-                                                    {cls.type}
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
+                        {/* Classes Table - Only show when expanded */}
+                        {expandedStudents[student.regNo] && (
+                            <>
+                                <div className="table-container">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th style={{ width: '50px', textAlign: 'center' }}>Sync</th>
+                                                <th>Day</th>
+                                                <th>Time</th>
+                                                <th>Course</th>
+                                                <th>Room</th>
+                                                <th>Type</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {student.timetable?.classes?.map((cls, index) => (
+                                                <tr key={index}>
+                                                    <td style={{ textAlign: 'center' }}>
+                                                        <input
+                                                            type="checkbox"
+                                                            checked={selectedClasses[student.regNo]?.includes(index)}
+                                                            onChange={() => toggleClass(student.regNo, index)}
+                                                        />
+                                                    </td>
+                                                    <td style={{ fontWeight: 500, color: '#fafafa' }}>{cls.day}</td>
+                                                    <td>{cls.startTime} - {cls.endTime}</td>
+                                                    <td>
+                                                        <span className="badge badge-info">{cls.course}</span>
+                                                    </td>
+                                                    <td>{cls.room}</td>
+                                                    <td>
+                                                        <span className={`badge ${cls.type === 'Practical' ? 'badge-warning' : 'badge-success'}`}>
+                                                            {cls.type}
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                </div>
 
-                        {/* Selection Count */}
-                        <div style={{
-                            padding: '12px 24px',
-                            background: '#09090b',
-                            borderTop: '1px solid #27272a',
-                            fontSize: '13px',
-                            color: '#71717a',
-                            textAlign: 'center'
-                        }}>
-                            <span style={{ color: '#ef4444', fontWeight: 600 }}>
-                                {selectedClasses[student.regNo]?.length || 0}
-                            </span> of {student.timetable?.classes?.length || 0} classes selected
-                        </div>
+                                {/* Selection Count */}
+                                <div style={{
+                                    padding: '12px 24px',
+                                    background: '#09090b',
+                                    borderTop: '1px solid #27272a',
+                                    fontSize: '13px',
+                                    color: '#71717a',
+                                    textAlign: 'center'
+                                }}>
+                                    <span style={{ color: '#ef4444', fontWeight: 600 }}>
+                                        {selectedClasses[student.regNo]?.length || 0}
+                                    </span> of {student.timetable?.classes?.length || 0} classes selected
+                                </div>
+                            </>
+                        )}
                     </div>
                 ))}
             </div>

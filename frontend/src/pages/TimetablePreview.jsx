@@ -195,7 +195,7 @@ function TimetablePreview() {
                             <div style={{ display: 'flex', gap: '16px' }}>
                                 <button
                                     onClick={() => selectAll(student.regNo)}
-                                    style={{ background: 'none', border: 'none', color: '#8b5cf6', fontSize: '13px', cursor: 'pointer' }}
+                                    style={{ background: 'none', border: 'none', color: '#ef4444', fontSize: '13px', cursor: 'pointer' }}
                                 >
                                     Select All
                                 </button>
@@ -257,7 +257,7 @@ function TimetablePreview() {
                             color: '#71717a',
                             textAlign: 'center'
                         }}>
-                            <span style={{ color: '#8b5cf6', fontWeight: 600 }}>
+                            <span style={{ color: '#ef4444', fontWeight: 600 }}>
                                 {selectedClasses[student.regNo]?.length || 0}
                             </span> of {student.timetable?.classes?.length || 0} classes selected
                         </div>

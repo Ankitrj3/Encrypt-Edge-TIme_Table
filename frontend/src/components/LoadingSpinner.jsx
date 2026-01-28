@@ -24,8 +24,8 @@ function LoadingSpinner({ message = 'Loading...' }) {
                     width: '60px',
                     height: '60px',
                     border: '3px solid transparent',
-                    borderTopColor: '#8b5cf6',
-                    borderRightColor: '#06b6d4',
+                    borderTopColor: '#ef4444',
+                    borderRightColor: '#f97316',
                     borderRadius: '50%'
                 }}></div>
             </div>

@@ -117,7 +117,7 @@ function StudentInput() {
             {/* Quick Stats Cards */}
             <div className="stats-grid mb-32" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
                 <div className="stat-card animate-slide-up stagger-1">
-                    <div className="stat-icon" style={{ background: 'rgba(139, 92, 246, 0.15)', color: '#a78bfa' }}>
+                    <div className="stat-icon" style={{ background: 'rgba(239, 68, 68, 0.15)', color: '#f87171' }}>
                         <UsersIcon />
                     </div>
                     <div className="stat-value">{students.length}</div>

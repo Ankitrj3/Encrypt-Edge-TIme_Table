@@ -1,0 +1,4329 @@
+{
+  "students": [
+    {
+      "name": "Paramjit Singh",
+      "regNo": "12311061",
+      "phone": "9876543210",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223CP",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "25-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "34-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "34-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "26-107",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "33-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "27-104",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "27-407",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "27-104",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "34-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "27-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "33-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "27-407",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "34-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "27-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "33-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "27-104",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "34-403",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "27-104",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "34-309",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "25-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "38-809",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "34-403",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "27-104",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:24:28.032Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:24:28.032Z"
+    },
+    {
+      "name": "Parth Narula",
+      "regNo": "12500362",
+      "phone": "9876543211",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "D2551",
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CAC201",
+            "room": "38-803",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CAP404",
+            "room": "38-801",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CAP404",
+            "room": "38-605 A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CAP102M",
+            "room": "38-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CAP725",
+            "room": "38-704",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CAP202",
+            "room": "38-708",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CAP202",
+            "room": "38-708",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CAP404",
+            "room": "38-709",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CAP404",
+            "room": "38-605 D",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "PEL204",
+            "room": "36-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CAP725",
+            "room": "38-707",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CAP725",
+            "room": "38-709",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CAP102M",
+            "room": "38-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "PEL204",
+            "room": "38-502",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CAC201",
+            "room": "38-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "PEL204",
+            "room": "36-708",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CAC201",
+            "room": "38-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "PEL204",
+            "room": "36-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CAP725",
+            "room": "38-702",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CAC201",
+            "room": "36-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CAP281",
+            "room": "38-503",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CAP202",
+            "room": "38-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CAP725",
+            "room": "38-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CAP281",
+            "room": "38-614",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 24,
+      "lastSynced": "2026-01-26T19:27:16.200Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:27:16.200Z"
+    },
+    {
+      "name": "Ashish Kumar Singh",
+      "regNo": "12300608",
+      "phone": "9876543212",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223EI",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "36-909",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "34-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "34-802",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "36-909",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "34-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "34-802",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "36-909",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "34-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "34-802",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "27-407A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "34-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "34-802",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "36-909",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "34-802",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "25-102",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:21:38.965Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:21:38.965Z"
+    },
+    {
+      "name": "Yash Yadav",
+      "regNo": "12309583",
+      "phone": "9876543213",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223PE",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "33-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "33-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "33-602",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "34-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "34-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES009",
+            "room": "34-409",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES009",
+            "room": "33-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES009",
+            "room": "33-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES009",
+            "room": "33-602",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES009",
+            "room": "34-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES009",
+            "room": "34-409",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES009",
+            "room": "33-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES009",
+            "room": "33-602",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES009",
+            "room": "34-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES009",
+            "room": "34-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES009",
+            "room": "34-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES009",
+            "room": "34-409",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES009",
+            "room": "33-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES009",
+            "room": "34-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES009",
+            "room": "34-409",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES009",
+            "room": "33-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES009",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES009",
+            "room": "33-602",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES009",
+            "room": "27-202",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES009",
+            "room": "34-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES009",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES009",
+            "room": "34-409",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES009",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES009",
+            "room": "33-602",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES009",
+            "room": "34-706",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:23:43.279Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:23:43.279Z"
+    },
+    {
+      "name": "Prabal",
+      "regNo": "12512197",
+      "phone": "9876543214",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "425FT",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "PEL125",
+            "room": "26-105",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "PEL125",
+            "room": "26-105",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "MTH166",
+            "room": "26-105",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "PHY110",
+            "room": "26-105",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE121",
+            "room": "26-105",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "MEC136",
+            "room": "26-106",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "MEC136",
+            "room": "26-106",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "INT306",
+            "room": "26-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "PHY110",
+            "room": "26-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSE121",
+            "room": "26-407",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "MEC136",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "MTH166",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE101",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT306",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "INT306",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSE320",
+            "room": "25-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "PEL125",
+            "room": "25-101A",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "PEL125",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSE101",
+            "room": "26-108",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE101",
+            "room": "26-108",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSE320",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "PHY110",
+            "room": "26-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "MTH166",
+            "room": "26-103",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSE101",
+            "room": "26-103",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE101",
+            "room": "26-103",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT306",
+            "room": "26-103",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "INT306",
+            "room": "26-103",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSE320",
+            "room": "25-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "MTH166",
+            "room": "25-601",
+            "type": "Tutorial",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 29,
+      "lastSynced": "2026-01-26T19:27:49.755Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:27:49.755Z"
+    },
+    {
+      "name": "Aryan Kumar",
+      "regNo": "12218679",
+      "phone": "9876543215",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "222RB",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "ERT435",
+            "room": "36-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE435",
+            "room": "36-808",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "ERT435",
+            "room": "36-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "ERT435",
+            "room": "36-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE435",
+            "room": "36-808",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 5,
+      "lastSynced": "2026-01-26T19:21:01.672Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:21:01.672Z"
+    },
+    {
+      "name": "Kumar Ayush",
+      "regNo": "12310661",
+      "phone": "9876543216",
+      "hasTimetable": false,
+      "timetable": {
+        "section": "",
+        "classes": []
+      },
+      "eventsCreated": 0,
+      "lastSynced": null,
+      "syncStatus": "pending"
+    },
+    {
+      "name": "Shaun Beniel Edwin",
+      "regNo": "12218394",
+      "phone": "9876543217",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "322MR",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSE435",
+            "room": "37-908",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-806",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-806",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSE435",
+            "room": "37-910",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-806",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-806",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 6,
+      "lastSynced": "2026-01-26T19:20:55.703Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:20:55.703Z"
+    },
+    {
+      "name": "Md Arfaa Taj",
+      "regNo": "12313447",
+      "phone": "9876543218",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223PE",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-504",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-502A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "26-408",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-404X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "26-404X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-404X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "26-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "33-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-508",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "38-815",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "37-608",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 29,
+      "lastSynced": "2026-01-26T19:25:01.446Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:25:01.446Z"
+    },
+    {
+      "name": "Anubhav Jaiswal",
+      "regNo": "12302387",
+      "phone": "9876543219",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223PE",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES011",
+            "room": "34-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES011",
+            "room": "34-707",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES011",
+            "room": "34-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES011",
+            "room": "34-406X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES011",
+            "room": "34-709",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES011",
+            "room": "36-803",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES011",
+            "room": "36-803",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES011",
+            "room": "27-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES011",
+            "room": "34-806",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES011",
+            "room": "34-806",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES011",
+            "room": "27-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES011",
+            "room": "27-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES011",
+            "room": "27-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES011",
+            "room": "27-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES011",
+            "room": "27-106",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES011",
+            "room": "27-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES011",
+            "room": "27-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES011",
+            "room": "27-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES011",
+            "room": "27-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES011",
+            "room": "27-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES011",
+            "room": "27-104A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES011",
+            "room": "27-104A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES011",
+            "room": "27-104A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES011",
+            "room": "27-104A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES011",
+            "room": "27-104A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES011",
+            "room": "33-505X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES011",
+            "room": "33-505X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES011",
+            "room": "33-505X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES011",
+            "room": "33-505X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES011",
+            "room": "33-505X",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:22:13.781Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:22:13.781Z"
+    },
+    {
+      "name": "Anshul Choudhary",
+      "regNo": "12205969",
+      "phone": "9876543220",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "322EI",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:00",
+            "endTime": "09:00",
+            "course": "CSE435",
+            "room": "28-208",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE439",
+            "room": "26-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSE435",
+            "room": "37-910",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "IXD804",
+            "room": "33-503",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "IXD804",
+            "room": "33-503",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "IXD804",
+            "room": "33-503",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSE435",
+            "room": "37-910",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 7,
+      "lastSynced": "2026-01-26T19:20:48.577Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:20:48.577Z"
+    },
+    {
+      "name": "Gagandeep Singh",
+      "regNo": "12322960",
+      "phone": "9876543221",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "423UH",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "36-502",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "37-604",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "33-507Y",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "33-507Y",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "33-507Y",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "33-507Y",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "37-706",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "36-805",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "36-805",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "36-805",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "36-805",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "26-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "26-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "26-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "26-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "34-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "34-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "34-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "34-608",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "34-608",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:26:47.702Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:26:47.702Z"
+    },
+    {
+      "name": "Shashank Pandey",
+      "regNo": "12317758",
+      "phone": "9876543222",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223YE",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "27-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "27-508A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "25-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "25-101A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-304",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "33-505",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "27-302",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "27-108",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "25-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "25-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "26-501A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-501A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "33-506",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "26-504X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "26-504X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-504X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "26-504X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "26-504X",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "34-109",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "34-109",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "34-109",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "34-109",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "34-109",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:25:37.057Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:25:37.057Z"
+    },
+    {
+      "name": "Priya Jantwal",
+      "regNo": "12320951",
+      "phone": "9876543223",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223PE",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "27-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "27-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "27-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "27-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "27-404",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "34-801A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "34-801A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "34-801A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-206",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "34-801A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "34-701A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "34-701A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "34-701A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES001",
+            "room": "34-701A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "34-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "34-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES001",
+            "room": "34-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "26-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES001",
+            "room": "33-304",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "33-304",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES001",
+            "room": "37-703",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES001",
+            "room": "37-703",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES001",
+            "room": "37-703",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES001",
+            "room": "37-703",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES001",
+            "room": "37-703",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:26:12.481Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:26:12.481Z"
+    },
+    {
+      "name": "Aditya Raj",
+      "regNo": "12307796",
+      "phone": "9876543224",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223OX",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE332",
+            "room": "33-304",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "PES319",
+            "room": "33-507",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "INT245",
+            "room": "33-507",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT245",
+            "room": "33-507",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSE357",
+            "room": "33-408",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE357",
+            "room": "33-408",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT324",
+            "room": "37-603",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSE332",
+            "room": "33-408",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT324",
+            "room": "37-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSE357",
+            "room": "33-507Y",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSE357",
+            "room": "33-507Y",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT324",
+            "room": "37-604",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "PES319",
+            "room": "33-310",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "PES319",
+            "room": "33-310",
+            "type": "Tutorial",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "INT245",
+            "room": "33-304",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "INT245",
+            "room": "33-304",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "INT324",
+            "room": "37-603",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 17,
+      "lastSynced": "2026-01-26T19:23:08.768Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:23:08.768Z"
+    },
+    {
+      "name": "Ankit Ranjan",
+      "regNo": "12000777",
+      "phone": "9876543225",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "222BB",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 42,
+      "lastSynced": "2026-01-26T19:20:39.778Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:20:39.778Z"
+    },
+    {
+      "name": "Rajvardhan Singh",
+      "regNo": "12303815",
+      "phone": "9876543226",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "223FN",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "37-701",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "37-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "37-601",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "38-818",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "38-818",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "37-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "37-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "37-710",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "26-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES003",
+            "room": "26-503",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "33-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "33-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "33-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "33-605",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "26-601A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "26-601A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "26-601A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "26-601A",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "38-909",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "27-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "27-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES003",
+            "room": "33-501",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "27-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES003",
+            "room": "27-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "27-307",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES003",
+            "room": "34-702",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES003",
+            "room": "34-702",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES003",
+            "room": "34-702",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSES003",
+            "room": "34-702",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES003",
+            "room": "34-702",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 30,
+      "lastSynced": "2026-01-26T19:22:48.788Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:22:48.788Z"
+    },
+    {
+      "name": "Guddu Kumar Das",
+      "regNo": "12309867",
+      "phone": "9876543227",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "222LH",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE435",
+            "room": "36-802",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSE439",
+            "room": "26-105",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-808",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE435",
+            "room": "36-509",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-808",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "INT334",
+            "room": "37-808",
+            "type": "Practical",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "course": "CSE435",
+            "room": "36-907",
+            "type": "Practical",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 8,
+      "lastSynced": "2026-01-26T19:23:52.833Z",
+      "syncStatus": "synced",
+      "updatedAt": "2026-01-26T19:23:52.833Z"
+    },
+    {
+      "name": "Shashi Mani Kumar",
+      "regNo": "12313181",
+      "phone": "9876543227",
+      "hasTimetable": true,
+      "timetable": {
+        "section": "222BB",
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Monday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "33-401",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Tuesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Thursday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Friday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          },
+          {
+            "day": "Saturday",
+            "startTime": "16:00",
+            "endTime": "17:00",
+            "course": "CSES012",
+            "room": "38-904",
+            "type": "Lecture",
+            "selected": true
+          }
+        ]
+      },
+      "eventsCreated": 42,
+      "lastSynced": "2026-01-28T00:00:00.000Z",
+      "syncStatus": "pending",
+      "updatedAt": "2026-01-28T00:00:00.000Z"
+    }
+  ],
+  "lastUpdated": "2026-01-26T19:27:49.755Z"
+}

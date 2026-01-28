@@ -171,8 +171,17 @@ function Dashboard() {
                                 <tr>
                                     <td colSpan="8">
                                         <div className="empty-state">
-                                            <div className="empty-state-icon">📭</div>
-                                            <div className="empty-state-text">No students found. Add students to get started.</div>
+                                            <div className="empty-state-icon" style={{ opacity: 0.3, fontSize: '24px' }}>
+                                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                                    <circle cx="9" cy="7" r="4" />
+                                                    <line x1="17" y1="11" x2="22" y2="11" />
+                                                </svg>
+                                            </div>
+                                            <div className="empty-state-text">No students found</div>
+                                            <p style={{ color: 'var(--text-muted)', marginTop: '4px', fontSize: '14px' }}>
+                                                Add students to get started
+                                            </p>
                                         </div>
                                     </td>
                                 </tr>

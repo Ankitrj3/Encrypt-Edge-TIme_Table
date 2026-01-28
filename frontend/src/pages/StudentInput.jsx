@@ -4,6 +4,46 @@ import toast from 'react-hot-toast';
 import { studentsApi } from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 
+// SVG Icons
+const UsersIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </svg>
+);
+
+const CheckCircleIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+        <polyline points="22 4 12 14.01 9 11.01" />
+    </svg>
+);
+
+const ClockIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+    </svg>
+);
+
+const CalendarIcon = () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+        <line x1="16" y1="2" x2="16" y2="6" />
+        <line x1="8" y1="2" x2="8" y2="6" />
+        <line x1="3" y1="10" x2="21" y2="10" />
+    </svg>
+);
+
+const ArrowRightIcon = () => (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12" />
+        <polyline points="12 5 19 12 12 19" />
+    </svg>
+);
+
 function StudentInput() {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
@@ -66,13 +106,9 @@ function StudentInput() {
                             disabled={syncedCount === 0}
                             style={{ marginTop: '8px' }}
                         >
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                                <line x1="16" y1="2" x2="16" y2="6" />
-                                <line x1="8" y1="2" x2="8" y2="6" />
-                                <line x1="3" y1="10" x2="21" y2="10" />
-                            </svg>
+                            <CalendarIcon />
                             View Timetables
+                            <ArrowRightIcon />
                         </button>
                     </div>
                 </div>
@@ -81,22 +117,22 @@ function StudentInput() {
             {/* Quick Stats Cards */}
             <div className="stats-grid mb-32" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
                 <div className="stat-card animate-slide-up stagger-1">
-                    <div className="stat-icon" style={{ background: 'rgba(139, 92, 246, 0.15)' }}>
-                        👥
+                    <div className="stat-icon" style={{ background: 'rgba(139, 92, 246, 0.15)', color: '#a78bfa' }}>
+                        <UsersIcon />
                     </div>
                     <div className="stat-value">{students.length}</div>
                     <div className="stat-label">Total Students</div>
                 </div>
                 <div className="stat-card animate-slide-up stagger-2">
-                    <div className="stat-icon" style={{ background: 'rgba(16, 185, 129, 0.15)' }}>
-                        ✅
+                    <div className="stat-icon" style={{ background: 'rgba(16, 185, 129, 0.15)', color: '#34d399' }}>
+                        <CheckCircleIcon />
                     </div>
                     <div className="stat-value highlight">{syncedCount}</div>
                     <div className="stat-label">With Timetable</div>
                 </div>
                 <div className="stat-card animate-slide-up stagger-3">
-                    <div className="stat-icon" style={{ background: 'rgba(245, 158, 11, 0.15)' }}>
-                        ⏳
+                    <div className="stat-icon" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#fbbf24' }}>
+                        <ClockIcon />
                     </div>
                     <div className="stat-value">{pendingCount}</div>
                     <div className="stat-label">Pending</div>
@@ -111,16 +147,6 @@ function StudentInput() {
                         <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '4px' }}>
                             {students.length} students registered in the system
                         </p>
-                    </div>
-                    <div style={{ display: 'flex', gap: '12px' }}>
-                        <button className="btn btn-outline btn-sm">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                <polyline points="17 8 12 3 7 8" />
-                                <line x1="12" y1="3" x2="12" y2="15" />
-                            </svg>
-                            Export
-                        </button>
                     </div>
                 </div>
 
@@ -142,7 +168,9 @@ function StudentInput() {
                                 <tr>
                                     <td colSpan="7">
                                         <div className="empty-state">
-                                            <div className="empty-state-icon">📭</div>
+                                            <div className="empty-state-icon" style={{ opacity: 0.3 }}>
+                                                <UsersIcon />
+                                            </div>
                                             <div className="empty-state-text">No students found</div>
                                             <p style={{ color: 'var(--text-muted)', marginTop: '8px', fontSize: '14px' }}>
                                                 Add students to get started
@@ -193,7 +221,6 @@ function StudentInput() {
                                         <td>
                                             {student.hasTimetable ? (
                                                 <span className="badge badge-success">
-                                                    <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'currentColor' }}></span>
                                                     Has Timetable
                                                 </span>
                                             ) : (
@@ -211,7 +238,7 @@ function StudentInput() {
                                         <td style={{ textAlign: 'center' }}>
                                             {student.syncStatus === 'synced' ? (
                                                 <span className="badge badge-success">
-                                                    ✓ Synced
+                                                    Synced
                                                 </span>
                                             ) : (
                                                 <span className="badge badge-pending">
@@ -240,7 +267,7 @@ function StudentInput() {
                     }}>
                         <span>Showing {students.length} students</span>
                         <span>
-                            <span style={{ color: 'var(--accent-success)' }}>{syncedCount}</span> synced •
+                            <span style={{ color: 'var(--accent-success)' }}>{syncedCount}</span> synced ·
                             <span style={{ marginLeft: '4px' }}>{pendingCount} pending</span>
                         </span>
                     </div>

@@ -1,16 +1,16 @@
 function SyncStatus({ status }) {
     const statusConfig = {
-        synced: { label: 'Synced', class: 'badge-success', icon: '✓' },
-        pending: { label: 'Pending', class: 'badge-pending', icon: '○' },
-        partial: { label: 'Partial', class: 'badge-warning', icon: '!' },
-        failed: { label: 'Failed', class: 'badge-danger', icon: '✕' }
+        synced: { label: 'Synced', class: 'badge-success' },
+        pending: { label: 'Pending', class: 'badge-pending' },
+        partial: { label: 'Partial', class: 'badge-warning' },
+        failed: { label: 'Failed', class: 'badge-danger' }
     };
 
     const config = statusConfig[status] || statusConfig.pending;
 
     return (
         <span className={`badge ${config.class}`}>
-            {config.icon} {config.label}
+            {config.label}
         </span>
     );
 }

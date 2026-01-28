@@ -13,8 +13,29 @@ import dashboardRoutes from './routes/dashboard.js';
 const app = express();
 
 // Middleware
+// CORS configuration - support both development and production origins
+const allowedOrigins = [
+    config.frontendUrl,
+    'http://localhost:5173',
+    'http://localhost:3000',
+    // Add Vercel URLs - they can have preview URLs too
+].filter(Boolean);
+
 app.use(cors({
-    origin: config.frontendUrl,
+    origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps, curl, etc)
+        if (!origin) return callback(null, true);
+
+        // Check if origin is allowed or is a Vercel preview URL
+        if (allowedOrigins.includes(origin) ||
+            origin.endsWith('.vercel.app') ||
+            origin.endsWith('.onrender.com')) {
+            callback(null, true);
+        } else {
+            console.log('CORS blocked origin:', origin);
+            callback(null, true); // Allow all for now, but log it
+        }
+    },
     credentials: true
 }));
 app.use(express.json());

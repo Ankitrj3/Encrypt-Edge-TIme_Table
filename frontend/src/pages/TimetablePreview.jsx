@@ -4,6 +4,14 @@ import toast from 'react-hot-toast';
 import { studentsApi, calendarApi, getAuthUrl } from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 
+// Search Icon
+const SearchIcon = () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+    </svg>
+);
+
 function TimetablePreview() {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
@@ -11,6 +19,7 @@ function TimetablePreview() {
     const [students, setStudents] = useState([]);
     const [selectedClasses, setSelectedClasses] = useState({});
     const [authenticated, setAuthenticated] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
         loadData();
@@ -30,12 +39,6 @@ function TimetablePreview() {
         try {
             const result = await studentsApi.getAll();
             const studentsWithTT = result.data.students.filter(s => s.hasTimetable);
-
-            if (studentsWithTT.length === 0) {
-                toast.error('No timetables found. Please add students first.');
-                navigate('/');
-                return;
-            }
 
             const fullData = await Promise.all(
                 studentsWithTT.map(async (s) => {
@@ -129,15 +132,23 @@ function TimetablePreview() {
     if (loading) return <LoadingSpinner message="Loading timetables..." />;
     if (syncing) return <LoadingSpinner message="Syncing to Google Calendar..." />;
 
+    // Filter students based on search query
+    const filteredStudents = students.filter(student =>
+        student.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        student.regNo?.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
     const totalSelected = Object.values(selectedClasses).reduce((sum, arr) => sum + arr.length, 0);
 
     return (
         <div className="page-container animate-fade-in">
             {/* Header */}
-            <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+            <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px' }}>
                 <div>
                     <h1 className="page-title">Timetable Preview</h1>
-                    <p className="page-subtitle">Select classes to sync to Google Calendar</p>
+                    <p className="page-subtitle">
+                        {students.length} students with timetables • Select classes to sync to Google Calendar
+                    </p>
                 </div>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                     {!authenticated && (
@@ -153,6 +164,60 @@ function TimetablePreview() {
                         Sync {totalSelected} Classes
                     </button>
                 </div>
+            </div>
+
+            {/* Search Bar */}
+            <div style={{ marginBottom: '24px' }}>
+                <div style={{
+                    position: 'relative',
+                    maxWidth: '400px'
+                }}>
+                    <div style={{
+                        position: 'absolute',
+                        left: '14px',
+                        top: '50%',
+                        transform: 'translateY(-50%)',
+                        color: 'var(--text-muted)',
+                        pointerEvents: 'none'
+                    }}>
+                        <SearchIcon />
+                    </div>
+                    <input
+                        type="text"
+                        className="input"
+                        placeholder="Search by student name or registration number..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        style={{
+                            paddingLeft: '44px',
+                            width: '100%'
+                        }}
+                    />
+                    {searchQuery && (
+                        <button
+                            onClick={() => setSearchQuery('')}
+                            style={{
+                                position: 'absolute',
+                                right: '12px',
+                                top: '50%',
+                                transform: 'translateY(-50%)',
+                                background: 'none',
+                                border: 'none',
+                                color: 'var(--text-muted)',
+                                cursor: 'pointer',
+                                fontSize: '18px',
+                                lineHeight: 1
+                            }}
+                        >
+                            ×
+                        </button>
+                    )}
+                </div>
+                {searchQuery && (
+                    <p style={{ marginTop: '8px', fontSize: '13px', color: 'var(--text-muted)' }}>
+                        Found {filteredStudents.length} of {students.length} students
+                    </p>
+                )}
             </div>
 
             {/* Auth Warning */}
@@ -178,9 +243,60 @@ function TimetablePreview() {
                 </div>
             )}
 
+            {/* Empty State */}
+            {students.length === 0 && (
+                <div className="card" style={{ textAlign: 'center', padding: '60px 24px' }}>
+                    <div style={{ marginBottom: '16px', opacity: 0.4 }}>
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                    </div>
+                    <h3 style={{ fontSize: '18px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>
+                        No Timetables Found
+                    </h3>
+                    <p style={{ color: 'var(--text-muted)', marginBottom: '24px' }}>
+                        Add students with timetables to get started
+                    </p>
+                    <button onClick={() => navigate('/')} className="btn btn-primary">
+                        Go to Students
+                    </button>
+                </div>
+            )}
+
+            {/* No Search Results */}
+            {students.length > 0 && filteredStudents.length === 0 && (
+                <div className="card" style={{ textAlign: 'center', padding: '48px 24px' }}>
+                    <div style={{ marginBottom: '16px', opacity: 0.4 }}>
+                        <SearchIcon />
+                    </div>
+                    <h3 style={{ fontSize: '16px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>
+                        No matching students
+                    </h3>
+                    <p style={{ color: 'var(--text-muted)' }}>
+                        No students found matching "{searchQuery}"
+                    </p>
+                    <button
+                        onClick={() => setSearchQuery('')}
+                        style={{
+                            marginTop: '16px',
+                            background: 'none',
+                            border: 'none',
+                            color: 'var(--accent-primary)',
+                            cursor: 'pointer',
+                            fontSize: '14px'
+                        }}
+                    >
+                        Clear search
+                    </button>
+                </div>
+            )}
+
             {/* Student Timetables */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-                {students.map(student => (
+                {filteredStudents.map(student => (
                     <div key={student.regNo} className="card">
                         {/* Student Header */}
                         <div className="card-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
